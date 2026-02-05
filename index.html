@@ -857,7 +857,7 @@
         
         // Popular cities for quick access
         const popularCities = [
-            { name: 'India', icon: 'fa-solid fa-gopuram' },
+            { name: 'Tamil Nadu', icon: 'fa-solid fa-gopuram' },
             { name: 'London', icon: 'fas fa-landmark' },
             { name: 'New York', icon: 'fas fa-city' },
             { name: 'Tokyo', icon: 'fas fa-torii-gate' },
@@ -1341,7 +1341,7 @@
         }
         
         // Add some sample suggestions
-        const suggestions = ['India', 'London', 'New York', 'Tokyo', 'Paris', 'Sydney', 'Dubai', 'Singapore', 'Berlin'];
+        const suggestions = ['Tamil Nadu', 'London', 'New York', 'Tokyo', 'Paris', 'Sydney', 'Dubai', 'Singapore', 'Berlin'];
         elements.searchInput.addEventListener('focus', () => {
             if (!elements.searchInput.value) {
                 elements.searchInput.placeholder = `Try: ${suggestions[Math.floor(Math.random() * suggestions.length)]}`;
