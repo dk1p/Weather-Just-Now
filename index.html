@@ -1341,7 +1341,7 @@
         }
         
         // Add some sample suggestions
-        const suggestions = ['London', 'New York', 'Tokyo', 'Paris', 'Sydney', 'Dubai', 'Singapore', 'Berlin'];
+        const suggestions = ['India', 'London', 'New York', 'Tokyo', 'Paris', 'Sydney', 'Dubai', 'Singapore', 'Berlin'];
         elements.searchInput.addEventListener('focus', () => {
             if (!elements.searchInput.value) {
                 elements.searchInput.placeholder = `Try: ${suggestions[Math.floor(Math.random() * suggestions.length)]}`;
